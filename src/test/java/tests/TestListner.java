@@ -29,6 +29,7 @@ public class TestListner extends Base implements ITestListener {
 	//	ITestListener.super.onTestStart(result);
 		 test = reports.startTest(result.getMethod().getMethodName());
 	System.out.println("*******Starting the test*******"+result.getMethod().getMethodName());
+		System.out.println("*******Starting the test*******"+result.getMethod().getMethodName());
 	}
 
 	public void onTestSuccess(ITestResult result) {
